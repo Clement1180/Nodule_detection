@@ -35,5 +35,15 @@ After execution, the script will generate two files in your output directory:
 - classification_test_results.csv
 - localization_test_results.csv
 
+## 5. Pipeline explaination
+## 6. Hardware used for the training
+- For the classification task, we used an NVIDIA RTX 4070 Super; the training took one hour and a half.
 
-written by Romain AMIGON
+- For the localization task, we used an NVIDIA RTX 4070 Super; the training took forty minutes.
+
+## 7. Inference Time
+
+- On an NVIDIA RTX 3060 laptop, the inference time was 1.60 seconds.
+
+
+written by Romain AMIGON and Clément BARDIN
